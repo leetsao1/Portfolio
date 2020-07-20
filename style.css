@@ -1,0 +1,167 @@
+.container {
+    width: 75% !important;
+}
+.top-container{
+    margin: 50px auto;
+    margin-left: 0px;
+    margin-right: 80px;
+    padding: 0px;
+    overflow: hidden; 
+    justify-content: left;
+    /* border: solid 1px black; */
+}
+ .top-container h1 {
+     padding-top: 50px;
+ }
+ .container{
+     padding: 0px;
+ }
+
+.bottom-container{
+    margin: 50px 5px;
+    padding: 0px;
+    padding-bottom: 25px;
+    height: 150px;
+    background-color:rgb(221, 237, 255);
+    /* color: white; */
+    height: fit-content;
+    text-align: center;
+}
+.bottom-container h5{
+    padding-top: 15px;
+}
+
+.bottom-container img{
+    height: 200px;
+    /* overflow: hidden;  */
+}
+
+#main-left-card{
+    box-shadow: 50px 50px 1px #141c3a;
+    /* rgb(13, 13, 80) */
+    height: fit-content;
+}
+
+#main-right-card{
+    width: 800px;
+    overflow: scroll;
+    text-align: justify;
+    height: fit-content;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  /* height: 100%; */
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#brand-design{
+    box-shadow: 50px -100px 1px #141c3a;
+    z-index: -1;
+  }
+
+
+  /* MOBILE RESPONSIVE */
+
+
+  /* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {  
+    #brand-design{
+        box-shadow: 35px -65px 1px #141c3a;
+        z-index: -1;
+      }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {   }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    #brand-design{
+        box-shadow: 35px -45px 1px #141c3a;
+      }
+    #main-left-card{
+        box-shadow: 35px 35px 1px #141c3a;
+        margin: 35px;
+    }
+      #main-right-card{
+        margin: 0px;
+    }
+  
+    .bottom-container img{
+        height: 150px;
+        /* overflow: hidden;  */
+    }
+
+  }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 12px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    .bottom-container img{
+        height: 125px;
+        /* overflow: hidden;  */
+    }
+    .bottom-container{
+        background-color:rgb(221, 237, 255);
+        height: fit-content;
+        width: fit-content;
+        margin: 25px;
+    }
+    #brand-design{
+        box-shadow: 0px 0px 0px ;
+        z-index: -1;
+    }
+
+    .row{
+          display: initial;
+
+    }
+
+
+    
+    #main-left-card{
+        box-shadow: 35px 35px 1px #141c3a;
+        margin: 0px;
+    }
+      #main-right-card{
+        margin: 0px;
+   
+       
+    }
+
+    #main-left-card{
+        width: 80%;
+    }
+
+    #main-right-card{
+        max-width: 75%;
+    }
+
+    #portrait{
+        /* height: auto; */
+    }
+    
+ }
+
+
+
+
+
