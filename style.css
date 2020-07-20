@@ -158,6 +158,12 @@
     #portrait{
         /* height: auto; */
     }
+    .collapse{
+        display: initial;
+    }
+    .collapse:not(.show) {
+        display: initial;
+    }
     
  }
 
